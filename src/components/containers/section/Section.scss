@@ -1,0 +1,17 @@
+.section-container {
+    position: relative;
+    vertical-align: bottom;
+
+    .section-container-icon {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        position: absolute;
+        right: 0;
+        z-index: 1000;
+    }
+
+    h4 {
+        margin-bottom: 0;
+    }
+}

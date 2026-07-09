@@ -1,0 +1,25 @@
+.info {
+    .info-row {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        gap: 20px;
+        margin-bottom: 15px;
+
+        p,
+        h3 {
+            margin-bottom: 0;
+        }
+
+        p {
+            font-size: 15px;
+        }
+    }
+
+    .control-buttons {
+        .dx-button {
+            margin-right: 15px;
+        }
+    }
+
+}
