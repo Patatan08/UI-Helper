@@ -8,7 +8,8 @@ const Index = () => {
 
     const menuItems = [
         { icon: "fa-solid fa-address-card", text: "Widok 1", route: "/view1" },
-        { icon: "fa-solid fa-clipboard-list", text: "Widok 2", route: "/view2" }
+        { icon: "fa-solid fa-clipboard-list", text: "Widok 2", route: "/view2" },
+        { icon: "fa-solid fa-clipboard-list", text: "Translator", route: "/Translator" }
     ];
 
     const handleNavigation = useCallback((route) => {

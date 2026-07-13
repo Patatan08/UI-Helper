@@ -14,12 +14,12 @@ function Translator() {
                     return keyA.localeCompare(keyB);
                 }).map(([key, value]) => (
                     <li key={key} className="list-group-item d-flex justify-content-between align-items-center">
-                        <span>
+                        <p>
                             {key}
-                        </span>
-                        <strong>
+                        </p>
+                        <p>
                             {value}
-                        </strong>
+                        </p>
                     </li>
                 ))}
             </ul>

@@ -24,6 +24,12 @@ const navigation = [
     path: '/view2',
     icon: 'fa-solid fa-clipboard-list',
     className: 'nav-main side-menu-row'
+  },
+  {
+    text: 'Translator',
+    path: '/Translator',
+    icon: 'fa-solid fa-clipboard-list',
+    className: 'nav-main side-menu-row'
   }
 ];
 
